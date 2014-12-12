@@ -9,7 +9,7 @@ a.divLink {
   top: 0;
   left: 0;
   text-decoration: none;
-  z-index: 10;
+  z-index: 2;
   background-color: white;
   opacity: 0;
   filter: alpha(opacity=0);
