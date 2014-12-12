@@ -3,10 +3,10 @@
 
 Student Projects - Fall 2014 - SCIARC
 
-url:
-http://cheeyoon.github.io/4astudio/
+url:<br>
+http://cheeyoon.github.io/4astudio/<br>
 http://www.4astudio.tk
 
-changelog:
-12/11/14 - site live
+changelog:<br>
+12/11/14 - site live<br>
 12/12/14 - all known issues fixed
