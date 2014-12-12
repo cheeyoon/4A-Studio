@@ -1,4 +1,4 @@
-4A-Studio
+4A Studio Projects
 =========
 
-4A Studio - Fall 2014 - SCIARC
+Student Projects - Fall 2014 - SCIARC
