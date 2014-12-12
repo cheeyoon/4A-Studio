@@ -37,14 +37,25 @@ a.divLink {
 
 .flip-container {
   background-color: black;
+  -webkit-perspective: 1000;
+  -moz-perspective: 1000;
+  -o-perspective: 1000;
   perspective: 1000;
   transform-style: preserve-3d;
 }
 
 .flip-container:hover .back {
+  -webkit-transform: rotateY(0deg);
+  -moz-transform: rotateY(0deg);
+  -o-transform: rotateY(0deg);
+  -ms-transform: rotateY(0deg);
   transform: rotateY(0deg);
 }
+
 .flip-container:hover .front {
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
   transform: rotateY(180deg);
 }
 
@@ -55,13 +66,27 @@ a.divLink {
 
 .flipper {
   transition: 0.1s;
+  -moz-transform: perspective(1000px);
+  -moz-transform-style: preserve-3d;
   transform-style: preserve-3d;
 
   position: relative;
 }
 
 .front, .back {
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
   backface-visibility: hidden;
+
+  -webkit-transition: 0.5s;
+  -webkit-transform-style: preserve-3d;
+  -moz-transition: 0.5s;
+  -moz-transform-style: preserve-3d;
+  -o-transition: 0.5s;
+  -o-transform-style: preserve-3d;
+  -ms-transition: 0.5s;
+  -ms-transform-style: preserve-3d;
   transition: 0.5s;
   transform-style: preserve-3d;
 
@@ -77,7 +102,10 @@ a.divLink {
 }
 
 .back {
-  background: white;
+  -webkit-transform: rotateY(-180deg);
+  -moz-transform: rotateY(-180deg);
+  -o-transform: rotateY(-180deg);
+  -ms-transform: rotateY(-180deg);
   transform: rotateY(-180deg);
 }
 
